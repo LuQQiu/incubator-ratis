@@ -28,7 +28,7 @@
   <dependencySets>
     <dependencySet>
       <includes>
-        <include>org.apache.ratis:ratis-examples</include>
+        <include>org.apache.ratis.lu:ratis-examples</include>
       </includes>
       <outputDirectory>examples/lib</outputDirectory>
     </dependencySet>
