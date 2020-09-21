@@ -34,19 +34,21 @@
   <inceptionYear>2017</inceptionYear>
 
   <distributionManagement>
-    <repository>
-      <id>${distMgmtStagingId}</id>
-      <name>${distMgmtStagingName}</name>
-      <url>${distMgmtStagingUrl}</url>
-    </repository>
     <snapshotRepository>
-      <id>${distMgmtSnapshotsId}</id>
-      <name>${distMgmtSnapshotsName}</name>
-      <url>${distMgmtSnapshotsUrl}</url>
+      <id>lu.artifacts</id>
+      <url>s3://lu.artifacts/snapshot</url>
     </snapshotRepository>
+    <repository>
+      <id>lu.artifacts</id>
+      <url>s3://lu.artifacts/release</url>
+    </repository>
   </distributionManagement>
 
   <repositories>
+    <repository>
+      <id>lu.artifacts</id>
+      <url>s3://lu.artifacts/snapshot</url>
+    </repository>
     <repository>
       <id>${distMgmtSnapshotsId}</id>
       <name>${distMgmtSnapshotsName}</name>
@@ -493,6 +495,11 @@
         <groupId>kr.motd.maven</groupId>
         <artifactId>os-maven-plugin</artifactId>
         <version>1.5.0.Final</version>
+      </extension>
+      <extension>
+        <groupId>org.kuali.maven.wagons</groupId>
+        <artifactId>maven-s3-wagon</artifactId>
+        <version>1.2.1</version>
       </extension>
     </extensions>
 
