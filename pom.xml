@@ -23,7 +23,7 @@
   </parent>
 
   <artifactId>ratis</artifactId>
-  <groupId>org.apache.ratis</groupId>
+  <groupId>org.apache.ratis.lu</groupId>
   <version>1.0.0</version>
   <name>Apache Ratis</name>
   <packaging>pom</packaging>
@@ -255,18 +255,18 @@
       <!-- Internal dependencies -->
       <dependency>
         <artifactId>ratis-docs</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <artifactId>ratis-client</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-client</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
@@ -274,12 +274,12 @@
 
       <dependency>
         <artifactId>ratis-common</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-common</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
@@ -287,60 +287,60 @@
 
       <dependency>
         <artifactId>ratis-examples</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-examples</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
        <artifactId>ratis-metrics</artifactId>
-       <groupId>org.apache.ratis</groupId>
+       <groupId>org.apache.ratis.lu</groupId>
        <version>${project.version}</version>
       </dependency>
       <dependency>
        <artifactId>ratis-metrics</artifactId>
-       <groupId>org.apache.ratis</groupId>
+       <groupId>org.apache.ratis.lu</groupId>
        <version>${project.version}</version>
        <type>test-jar</type>
        <scope>test</scope>
       </dependency>
       <dependency>
         <artifactId>ratis-tools</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-tools</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
         <artifactId>ratis-grpc</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-grpc</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
       <dependency>
         <artifactId>ratis-hadoop</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-hadoop</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
@@ -348,12 +348,12 @@
 
       <dependency>
         <artifactId>ratis-netty</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-netty</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
@@ -361,18 +361,18 @@
 
       <dependency>
         <artifactId>ratis-proto</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
         <artifactId>ratis-replicated-map</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-replicated-map</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
@@ -380,12 +380,12 @@
 
       <dependency>
         <artifactId>ratis-server</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-server</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
@@ -393,25 +393,25 @@
 
       <dependency>
         <artifactId>ratis-test</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-test</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
       </dependency>
 
       <dependency>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <artifactId>ratis-logservice</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <artifactId>ratis-logservice</artifactId>
-        <groupId>org.apache.ratis</groupId>
+        <groupId>org.apache.ratis.lu</groupId>
         <version>${project.version}</version>
         <type>test-jar</type>
         <scope>test</scope>
